@@ -1,9 +1,11 @@
 import socket
+import sys
 from urllib.parse import urlparse
 
 import pytest
 
-from .src.get_API_ip import get_API_ip
+sys.path.append("../")
+from src.get_API_ip import get_API_ip
 
 
 def test_get_API_ip():

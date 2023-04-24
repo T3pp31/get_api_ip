@@ -1,5 +1,5 @@
-from get_API_ip import get_API_ip
-from get_API_url import get_API_url
+from src.get_API_ip import get_API_ip
+from src.get_API_url import get_API_url
 
 # 調べたいWebサイトのurlを入力
 url = input("調べたいWebサイトのURLを入力(例:https://www.mlb.com/):")

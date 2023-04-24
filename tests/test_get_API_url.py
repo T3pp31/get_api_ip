@@ -1,5 +1,8 @@
+import sys
+
 import pytest
 
+sys.path.append("../")
 from src.get_API_url import get_API_url
 
 
