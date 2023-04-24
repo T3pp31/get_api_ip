@@ -7,6 +7,8 @@
 ```
 docker-compose build
 docker-compose up -d
+python3 main.py
+
 ```
 
 # 処理の流れ

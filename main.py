@@ -16,4 +16,4 @@ print(result)
 # ファイル書き出し
 with open("result.txt", "w") as file:
     for url, ip in result.items():
-        file.write(f"{url}:{ip}\n")
+        file.write(f"{url}|{ip}\n")
