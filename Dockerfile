@@ -14,7 +14,8 @@ ENV TERM xterm
 
 RUN mkdir -p /root/src
 RUN git clone https://github.com/T3pp31/get_api_ip.git
+WORKDIR /root/src/get_api_ip
 
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
-RUN pip install -r /root/src/get_api_ip/requirements.txt
+RUN pip install requests beautifulsoup4 pytest

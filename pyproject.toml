@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "get-api-ip"
+version = "0.1.0"
+description = ""
+authors = ["Fu-Te <37261985+T3pp31@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "get_api_ip"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.28.2"
+beautifulsoup4 = "^4.12.2"
+pytest = "^7.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
