@@ -25,8 +25,6 @@ def get_API_url(url="google.com"):
     for link in soup.find_all("link"):
         urls.append(link.get("href"))
 
-    print(urls)
-
     return urls
 
 
