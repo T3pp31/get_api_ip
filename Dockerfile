@@ -13,6 +13,7 @@ ENV TZ JST-9
 ENV TERM xterm
 
 RUN mkdir -p /root/src
+RUN apt-get install --reinstall ca-certificates
 RUN git clone https://github.com/T3pp31/get_api_ip.git
 WORKDIR /root/src/get_api_ip
 
